@@ -30,8 +30,6 @@ The objective of this game is to hit the bricks 3 times each to make them disapp
 
 
 Project Contributors :
-1. Poorva Ganesh Rane (13IT126)
-2. Balaji Bala (13IT207)
-3. Deepthi M Hegde (13IT208)
-4. Nidhi Sridhar (13IT223)
-5. Shruti Hegde (13IT238)
+1. Poorva Ganesh Rane 
+2. Balaji Bala 
+3. Nidhi Sridhar 
