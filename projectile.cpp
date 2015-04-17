@@ -142,42 +142,6 @@ void check()
     glFlush();
 }
 
-void drawCircle1(int xc, int yc, int r)
-{
-  int x=0;
-  int y=r;
-  int h = 1-r; 
-  glColor3f(0.0,0.0,0.0);
-  glPushMatrix();
-  glBegin(GL_POINTS);
-  while(x<=y)
-  {
-	    setPixel(xc+x,yc+y);
-		setPixel(xc+x,yc-y);
-		setPixel(xc+y,yc+x);
-		setPixel(xc+y,yc-x);
-	    setPixel(xc-x,yc+y);
-	    setPixel(xc-y,yc+x);
-	    setPixel(xc-x,yc-y);
-	    setPixel(xc-y,yc-x);
-
-    	if(h<0)
-    	{
-    	  h = h+(2*x)+3;
-    	}
-    	else
-    	{
-    	  h = h+(2*x)-(2*y)+5;
-    	  y = y-1;
-    	}
-    	x = x+1;
-  }
-
-  glEnd();
-     glPopMatrix();
-    glFlush();
-
-}
 
 void drawCircle(int xc, int yc, int r)
 {
@@ -219,14 +183,14 @@ void drawCircle(int xc, int yc, int r)
 void drawBasket(int t, int num, int colour)
 {
         if(colour==1)
-        glColor3f(1.0,1.0,1.0);
+        	glColor3f(1.0,1.0,1.0);
         else if(colour==2)
-        glColor3f(0.0,0.85,0.0);
-	else if(colour==3)
-        glColor3f(0.0,0.0,1.0);	
+        	glColor3f(0.0,0.85,0.0);
+		else if(colour==3)
+        	glColor3f(0.0,0.0,1.0);	
 
         glLineWidth(8);
-	int x1=400,x2=470,x3=830,x4=900,x5=615,x6=685;
+		int x1=400,x2=470,x3=830,x4=900,x5=615,x6=685;
 
     glPushMatrix();
     if(num==1)
@@ -236,10 +200,6 @@ void drawBasket(int t, int num, int colour)
 	    setPixel(x2,window_height - t);
 	    setPixel(x2,window_height -t + 50);
 	    setPixel(x1,window_height - t + 50);
-	    setPixel(x2,window_height - t);
-	    setPixel(x2,window_height -t + 50);
-	    setPixel(x1,window_height - t);
-	    setPixel(x1,window_height -t + 50);
 	    glEnd();
     }
 
@@ -250,10 +210,6 @@ void drawBasket(int t, int num, int colour)
 	    setPixel(x6,window_height - t1);
 	    setPixel(x6,window_height -t1 + 50);
 	    setPixel(x5,window_height - t1 +50);
-	    setPixel(x6,window_height - t1);
-	    setPixel(x6,window_height -t1 + 50);
-	    setPixel(x5,window_height - t1);
-	    setPixel(x5,window_height -t1 + 50);
 	glEnd();
     }
 
@@ -264,10 +220,6 @@ void drawBasket(int t, int num, int colour)
 	    setPixel(x4,window_height - t);
 	    setPixel(x4,window_height -t + 50);
 	    setPixel(x3,window_height - t + 50);
-	    setPixel(x4,window_height - t);
-	    setPixel(x4,window_height -t + 50);
-	    setPixel(x3,window_height - t);
-	    setPixel(x3,window_height -t + 50);
 	    glEnd();
     }
     glPopMatrix();
@@ -291,10 +243,6 @@ void draw_intro()
 	    setPixel(180,40);
 	    setPixel(320,40);
 	    setPixel(320,120);
-	    setPixel(180,120);
-	    setPixel(320,40);
-	    setPixel(320,120);
-	    setPixel(180,40);
 	    setPixel(180,120);
 	 glEnd();
 }
@@ -486,10 +434,6 @@ void draw_obstacles()
 	    setPixel(x2,y1);
 	    setPixel(x2,y2);
 	    setPixel(x1,y2);
-	    setPixel(x2,y1);
-	    setPixel(x2,y2);
-	    setPixel(x1,y1);
-	    setPixel(x1,y2);
 	 glEnd();
 
 	glLineWidth(10);
@@ -498,10 +442,6 @@ void draw_obstacles()
 	    setPixel(x3,y3);
 	    setPixel(x4,y3);
 	    setPixel(x4,y4);
-	    setPixel(x3,y4);
-	    setPixel(x4,y3);
-	    setPixel(x4,y4);
-	    setPixel(x3,y3);
 	    setPixel(x3,y4);
 	 glEnd();
     drawCircle(12.5,5,5);
