@@ -20,9 +20,9 @@ The objective of this game is to hit the bricks 3 times each to make them disapp
         Spacebar = Launch the first projectile/Start Game
         'q' = Quit the game
 
-    To play the game, open the directory it is present in and compile it using the following command:
+To play the game, open the directory it is present in and compile it using the following command:
         g++ projectile.cpp -lGL -lGLU -lglut -lm
-    Then run it using:
+Then run it using:
         ./a.out
 
 
