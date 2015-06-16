@@ -2,9 +2,6 @@
 
 A Projectile based Game implemented on OpenGL.
 
-Our Project comprises of two sub-projects:
-1. A Projectile Based Game
-
 The purpose of this project was to understand the fundamental concepts of 2-D and 3-D tranformations and is written in C++.
 
 To be able to run the projects on a linux distribution, use the following command to install OpenGL:
