@@ -29,7 +29,7 @@ Then run it using:
         ./a.out
 
 
-Project Contributors :
-1. Poorva Ganesh Rane 
-2. Balaji Bala 
-3. Nidhi Sridhar 
+Project Contributors :<br>
+1. Poorva Ganesh Rane <br>
+2. Balaji Bala <br>
+3. Nidhi Sridhar <br>
