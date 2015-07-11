@@ -11,7 +11,7 @@ To be able to run the projects on a linux distribution, use the following comman
 
 PROJECTILE BASED GAME:
 
-The objective of this game is to hit the bricks 3 times each to make them disappear.
+The objective of this game is to hit the bricks 3 times each, to make them disappear.
 
 	Play Controls:
         'w' = Increase velocity of projectile
