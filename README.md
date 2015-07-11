@@ -5,7 +5,7 @@ A Projectile based Game implemented on OpenGL.
 The purpose of this project was to understand the fundamental concepts of 2-D and 3-D tranformations and is written in C++.
 
 To be able to run the projects on a linux distribution, use the following command to install OpenGL:
-	sudo apt-get install freeglut3 freeglut3-dev mesa-utils
+	<code>sudo apt-get install freeglut3 freeglut3-dev mesa-utils</code>
 
 
 PROJECTILE BASED GAME:
