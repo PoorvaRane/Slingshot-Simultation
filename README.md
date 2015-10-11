@@ -1,6 +1,6 @@
 # Projectile-Game
 
-A Projectile based Game implemented on OpenGL.
+A Projectile based Game implemented in OpenGL.
 
 The purpose of this project was to understand the fundamental concepts of 2-D and 3-D tranformations and is written in C++.
 
